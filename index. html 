@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr Tchoulo AI 🤖</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Mr Tchoulo AI 🤖</h1>
+    <p class="slogan">By Tchoulo — Powered by OpenAI</p>
+    <p class="typing">💬 AI en train de réfléchir...</p>
+  </header>
+
+  <div id="chatbox"></div>
+
+  <div class="input-area">
+    <input type="text" id="userInput" placeholder="Tapez votre question..." autofocus>
+    <button id="sendBtn">⚡ Envoyer</button>
+  </div>
+
+  <div class="footer">
+    © 2025 Mr Tchoulo | Tous droits réservés
+    <div class="lang-buttons">
+      <button onclick="setLang('fr')">Français</button>
+      <button onclick="setLang('en')">English</button>
+      <button onclick="setLang('ht')">Kreyòl</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
